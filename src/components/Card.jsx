@@ -33,10 +33,20 @@ const Card = ({ item }) => {
   return (
     <div className="card bg-base-900 shadow-xl ">
       <figure className=" max-h-[30vh]">
-        <img src={item.imageUrl} alt="Shoes" >
+        <img
+    src={item.imageUrl}
+    alt="lol"
+    onError={(e) =>
+      (e.target.onerror = null)(
+        (e.target.src =
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/2560px-Stadtbild_M%C3%BCnchen.jpg")
+      )
+    }
+  />
+        {/* <img src={item.imageUrl} alt="Shoes" >*/}
       </figure>
       <div className="">
-        { <h2 className="card-title">{item.name}</h2> }
+         <h2 className="card-title">{item.name}</h2> 
         <p>Created on: {item.createdAt}</p>
         <div className="card-actions justify-end">
           <a
