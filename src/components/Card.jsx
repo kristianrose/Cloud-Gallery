@@ -49,7 +49,8 @@ const Card = ({ item }) => {
          <h2 className="card-title">{item.name}</h2> 
         <p>Created on: {item.createdAt}</p>
         <div className="card-actions justify-end">
-          <a
+         
+          <a download={item.imageUrl} href={item.imageUrl} title="Froggy Beta">
             href={item.imageUrl}
             className=" text-[#7480ff] text-[2rem] transition-all hover:text-green-600 hover:rounded-lg"
              download>
