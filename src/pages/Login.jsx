@@ -90,7 +90,7 @@ const Login = () => {
             {error && <p className=" text-red-600">{error}</p>}
           </div>
           <div className="form-control mt-6">
-            <button onClick={handleLogIn} className="btn btn-primary">Login</button>
+            <button onClick={handleLogIn} className="btn btn-base-300">Login</button>
           </div>
         </div>
       </div>
