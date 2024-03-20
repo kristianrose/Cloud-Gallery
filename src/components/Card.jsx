@@ -39,7 +39,7 @@ const Card = ({ item }) => {
     onError={(e) =>
       (e.target.onerror = null)(
         (e.target.src =
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/2560px-Stadtbild_M%C3%BCnchen.jpg")
+          "https://firebasestorage.googleapis.com/v0/b/frog-fb23f.appspot.com/o/vander%40gmail.com%2F0ff0e001-9007-4df7-b2ed-603c3f542d18.jpeg?alt=media&token=43361283-6629-4f96-938f-804f8f08b2c1")
       )
     }
   />
