@@ -141,13 +141,13 @@ const Home = () => {
             <input
               onChange={handleFile}
               type="file"
-              className="file-input file-input-bordered file-input-primary w-full"
+              className="file-input file-input-bordered file-input-base-300 w-full"
             />
           </div>
           <div>
             <button
               onClick={handleUpload}
-              className="btn btn-primary mt-4 w-full"
+              className="btn btn-base-300 mt-4 w-full"
               disabled={!selectedFile}
             >
               {progress && <span className="loading"></span>}
