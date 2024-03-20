@@ -51,9 +51,8 @@ const Card = ({ item }) => {
         <div className="card-actions justify-end">
           <a
             href={item.imageUrl}
-            target="_blank"
             className=" text-[#7480ff] text-[2rem] transition-all hover:text-green-600 hover:rounded-lg"
-            rel="noopener noreferrer" download>
+             download>
             <MdOutlineFileDownload />
           </a>
           <button
