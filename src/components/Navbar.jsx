@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="navbar-end pr-1">
         <button
           onClick={() => signOut(firebaseAuth)}
-          className="btn btn-primary"
+          className="btn btn-base-300"
         >
           LogOut
         </button>
