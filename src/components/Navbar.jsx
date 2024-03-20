@@ -12,8 +12,9 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100 p-1">
       <div className="navbar-start p-5 ">
-        {/* <a className="btn btn-ghost text-xl">CloudGallery</a> */}
-        <img className="max-h-[3rem]" src={logo} alt="ImageGallery" />
+        <a className="btn btn-ghost text-xl">Froggy</a> 
+      
+        {/* <img className="max-h-[3rem]" src={logo} alt="ImageGallery" />*/}
       </div>
       <div className="navbar-end pr-1">
         <button
