@@ -87,7 +87,7 @@ const SignUp = () => {
             {error && <p className=" text-red-600">{error}</p>}
           </div>
           <div className="form-control mt-6">
-            <button onClick={handleSignIn} className="btn btn-primary">
+            <button onClick={handleSignIn} className="btn btn-base-300">
               Sign Up
             </button>
           </div>
